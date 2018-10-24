@@ -1,6 +1,6 @@
-const root = '/platform/api/';
+const root = '/api/';
 
-// const API_BASE_URL = 'http://fly2you.cn' + root;
+//var const API_BASE_URL = 'http://fly2you.cn' + root;
 const API_BASE_URL = 'http://localhost:8080' + root;
 module.exports = {
     IndexUrlNewGoods: API_BASE_URL + 'index/newGoods', //新品首发
@@ -10,7 +10,7 @@ module.exports = {
     IndexUrlCategory: API_BASE_URL + 'index/category', //首页底部的分类及商品列表
     IndexUrlBanner: API_BASE_URL + 'index/banner', //首页banner
     IndexUrlChannel: API_BASE_URL + 'index/channel', //banner下的分类
-    CatalogList: API_BASE_URL + 'catalog/index',  //分类目录全部分类数据接口
+    CatalogList: API_BASE_URL + 'catalog/index',//分类目录全部分类数据接口
     CatalogCurrent: API_BASE_URL + 'catalog/current',  //分类目录当前分类数据接口
 
     AuthLoginByWeixin: API_BASE_URL + 'auth/login_by_weixin', //微信登录
